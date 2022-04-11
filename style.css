@@ -1,0 +1,92 @@
+@media screen and (min-width: 600px) {
+  #imggg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #imggg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.squre {
+  width: 600px;
+  height: 800px;
+}
+
+@media screen and (min-width: 600px) {
+  .squre {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .squre {
+    background-color: red;
+  }
+}
+
+.text {
+  width: 600px;
+  height: 800px;
+  background-color: green;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    color: yellow;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #back {
+    background-image: url("momo.jpg");
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #back {
+    background-image: url("forfor.jpg");
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.blue {
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .blue {
+    border-radius: 0%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .blue {
+    border-radius: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #tmona {
+    background-image: url("thethe.jpg");
+    filter: blur(4%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tmona {
+    background-image: url("thethe.jpg");
+    filter: grayscale(1);
+  }
+}
+
